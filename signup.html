@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Sign In</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form>
+        <div class="container" id="blur">
+            <div class="content">
+                <h2 >Sign Up</h2>   
+                <label for="imageInput">
+                    <img src="https://img5.pic.in.th/file/secure-sv1/Pngtreevector-pen-icon_3785500.png" id="previewImage" />
+                <input type="file" id="imageInput" style="display: none;" />
+                <script src="phototest.js"></script>
+        </div>
+        </div>
+        <div class="input-group">
+        <div class="input-bx2">
+            <input type="text" required="required" />
+            <span>name</span>
+        </div>
+        <div class="input-bx2">
+            <input type="text" required="required" />
+            <span>surname</span>
+        </div>
+    </div>
+        <div class="input-bx">
+            <input type="text" required="required" />
+            <span>Email</span>
+        </div>
+        <div class="input-bx">
+            <input type="text" required="required" />
+            <span>Username</span>
+        </div>
+        <div class="input-bx">
+            <input type="password" required="required" />
+            <span>Password</span>
+        </div>
+        <div class="input-bx">
+            <input type="password" required="required" />
+            <span>Confirm Password</span>
+        </div>
+        <div class="input-bx" type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}" required> 
+            <input type="tel" required="required" />
+            <span>tel no.</span>
+        </div>
+       <button>
+        <div class="SignUpBtn" style="width: 336px; height: 37px; padding-top: 7px; padding-bottom: 8px; background: #597671; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 5px; overflow: hidden; border: 1px black solid; justify-content: center; align-items: center; display: inline-flex">
+            <div class="SignIn" style="text-align: center; color: white; font-size: 18px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Sign Up</div>
+          </div>
+        </button>
+        <p>Already have an account? <a href="signin.html">Sign in</a></p>
+            </div>
+            <div id="popup">
+                <h2>Choose Your Role</h2>
+                <a href="signup.html" class="buttonrole">User</a>
+                <a href="signupdriver.html" class="buttonrole">Driver</a>
+            <div id="myDIV">
+                <div class="input-bx">
+                </div>
+              </div>
+              <script src="rolescript.js"></script>
+            </select>
+                <a href="#" onclick="toggle()">Close</a>
+            </div>
+            <script>
+                function toggle() {
+                    var blur=document.getElementById('blur');
+                    blur.classList.toggle('active');
+                    var popup = document.getElementById('popup');
+                    popup.classList.toggle('active');
+                }
+            </script>
+    
+</form>
+</div>
+</body>
+</html>

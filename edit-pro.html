@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Sign In</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form>
+        <div class="container" id="blur">
+            <div class="content">
+                <h2 >Edit Profile</h2>   
+                <label for="imageInput">
+                    <img src="img.png" id="previewImage" />
+                </label>
+                <input type="file" id="imageInput" style="display: none;" />
+                <script src="phototest.js"></script>
+        </div>
+        <div class="input-bx">
+            <input type="text" required="required" />
+            <span>Username 🖍</span>
+        </div>
+        <div class="input-bx">
+            <input type="text" required="required" />
+            <span>Discribtion 🖍</span>
+        </div>
+        <div class="input-bx">
+            <input type="password" required="required" />
+            <span>Current Password 🖍</span>
+        </div>
+        <div class="input-bx">
+            <input type="password" required="required" />
+            <span>New Password 🖍</span>
+        </div>
+        <div class="input-bx">
+            <input type="password" required="required" />
+            <span>Confirm Password 🖍</span>
+        </div>
+        <div class="input-bx" type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}" required> 
+            <input type="tel" required="required" />
+            <span>Tel no. 🖍</span>
+        </div>
+       <button>
+        <div class="SignUpBtn" style="width: 336px; height: 37px; padding-top: 7px; padding-bottom: 8px; background: #597671; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 5px; overflow: hidden; border: 1px black solid; justify-content: center; align-items: center; display: inline-flex">
+            <div class="SignIn" style="text-align: center; color: white; font-size: 18px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Confirm Na Ja</div>
+          </div>
+        </button>
+          <button type="button" onclick="goBack()" style="margin-top: 10px;">
+            <div class="SignUpBtn" style="width: 336px; height: 37px; padding-top: 7px; padding-bottom: 8px; background: #597671; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 5px; overflow: hidden; border: 1px black solid; justify-content: center; align-items: center; display: inline-flex">
+              <div class="SignIn" style="text-align: center; color: white; font-size: 18px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Go Back</div>
+            </div>
+          </button>
+        </div>
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+      </script>
+      </div>
+    </body>
+</form>
+</div>
+</body>
+</html>

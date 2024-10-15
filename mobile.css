@@ -1,0 +1,39 @@
+/* Set the container to a fixed mobile width */
+body, html {
+    width: 375px;
+    max-width: 375px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  
+  /* Set the container to take up the full height */
+  .container {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  
+  /* Make sure images don't overflow the container */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style adjustments for input boxes */
+  .input-bx {
+    width: calc(100% - 20px);
+    margin: 10px auto;
+  }
+  
+  /* Button styles */
+  button {
+    width: calc(100% - 40px);
+    margin: 10px auto;
+    display: block;
+  }
+  
+  /* Make sure the form doesn't exceed the container width */
+  form {
+    max-width: 375px;
+  }
+  

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="stylesp.css">
+    <title>Ugolgo Create Package</title>
+</head>
+    <body>
+        <div id="popup">
+            <div class="Confirm">
+                <div class="Success">Success</div>
+                <a href="#" onclick="toggle()">
+                <div class="Btn">
+                    Close
+                </div>
+                <div class="Frame7"></div>
+                <div class="CreatePackageSuccess">Create Package success.</div>
+                  <img src="image/correct.png" alt=" correct" class="Check">     
+              </div> 
+        </div>
+        <script>
+            function toggle() {
+                var blur=document.getElementById('blur');
+                blur.classList.toggle('active');
+                var popup = document.getElementById('popup');
+                popup.classList.toggle('active');
+            }
+        </script>
+        <div class="container" id="blur" >
+        <div class="content">
+        <div class="CreatePostButton">
+            <div class="CreatePackage">Create Package</div>
+        </div>
+        <div class="Form">
+            <div class="PackageContainer">
+                <div class="PriceXx">Price: xx$</div>
+                <div class="DescriptionLoremIpsumDolorSitAmetConsecteturAdipisicingElitRecusandaeExcepturiAbEsseRepellendusIsteQuisSuntConsecteturTotamDoloresDolors">
+                    Description:<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae excepturi ab esse repellendus iste quis, sunt consectetur totam? Dolores, dolors.
+                </div>
+            </div>
+    
+            <div class="PackageName">
+                <div class="Text">Package Name</div>
+            </div>
+            <a href="#" onclick="toggle()">
+            <div class="ButtonContainer">  
+                <button class="DoneButton" >
+                    <div class="Text">Done</div>
+                </button>
+            </a>
+            <a href ="feed-driver.html" >
+                <button class="CloseButton" >
+                    <div class="Text">Close</div>
+                </button>
+            </div>
+        </a>
+        <a href =  "#">
+        <div class="AddPackage">
+            <div class="Text">Add Package</div>
+        </div>
+    </a>
+        </div>  
+              <div id="popup">
+                <h2>Choose Your Role</h2>
+                <a href="signup.html" class="buttonrole">User</a>
+                <a href="signupdriver.html" class="buttonrole">Driver</a>
+            <div id="myDIV">
+                <div class="input-bx">
+                </div>
+              </div>
+            </select>
+                <a href="#" onclick="toggle()">Close</a>
+            </div>
+            <script>
+                function toggle() {
+                    var blur=document.getElementById('blur');
+                    blur.classList.toggle('active');
+                    var popup = document.getElementById('popup');
+                    popup.classList.toggle('active');
+                }
+            </script>
+            
+    <div class="footer">
+        <a href="edit-pro.html">
+            <img src="image/profile.png" class="footer-img">
+        </a>
+        <img src="image/carlogo.png" class="footer-img">
+        <img src="image/paper.png" class="footer-img">
+    </div>
+</div>
+<div class="footer">
+    <a href="edit-pro.html">
+      <img src="image/profile.png" class="footer-img">
+    </a>
+    <a href="feed.html">
+    <img src="image/carlogo.png" class="footer-img">
+  </a>
+    <a href="queue.html">
+    <img src="image/paper.png" class="footer-img">
+  </a>
+  </div>
+</body>
+</html>
